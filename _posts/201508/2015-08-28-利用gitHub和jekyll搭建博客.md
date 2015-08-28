@@ -68,7 +68,7 @@ git push
 	
 	......
 
-	"{% include themes/mark-reid/page.html %}"
+	<div>{% include themes/mark-reid/page.html %}</div>
 	
 	......
 
