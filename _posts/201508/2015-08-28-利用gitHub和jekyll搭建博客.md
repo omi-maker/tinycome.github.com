@@ -31,8 +31,9 @@ tagline: Supporting tagline
 
 ## 3、Create a Post
 
-  因为在第2步的时候没有在本地安装Jekyll，后面的几个步骤我就写一下我自己是怎么操作的，如果安装了的就直接按照文档上操作就可以了，上面的英语简单易懂^_^.
-  直接在_posts目录下创建文件夹如core-samples(名字任意，主要是是方便分类,这个是自带的例子)，然后创建以日期为首的文件2011-12-29-jekyll-introduction.md
+因为在第2步的时候没有在本地安装Jekyll，后面的几个步骤我就写一下我自己是怎么操作的，如果安装了的就直接按照文档上操作就可以了，上面的英语简单易懂^_^.
+
+直接在_posts目录下创建文件夹如core-samples(名字任意，主要是是方便分类,这个是自带的例子)，然后创建以日期为首的文件2011-12-29-jekyll-introduction.md
 
 ## 4、Create a Page
 
@@ -40,28 +41,34 @@ tagline: Supporting tagline
 ## 5、Publish
 
 就是
+
 git commit
+
 git push 
+
 把更新的文件提交到gitHub上即可。
 
 ## 6、Customize
 
 让自己的博客看起来更有逼格更个性化一些，jekyll自己准备了几个主题，可以按照上面的方式自己更换，如果自己会点css那就更好了^_^。
 
-我写一下自己更换的方式，跟文档上面不太一样
+我写一下自己更换的方式，跟文档上面不太一样:
 
-	1）、找主题，这一步跟官网一样访问`[Theme Explorer](http://themes.jekyllbootstrap.com/)`
+1）、找主题，这一步跟官网一样访问`[Theme Explorer](http://themes.jekyllbootstrap.com/)`
 
-	2) 、相中合适的主题之后点击 Install Theme 会弹出一个安装方法的弹层，我们只需要那个git地址，将它拷贝到本地装备使用，例如我自己使用的这个主题：
+2) 、相中合适的主题之后点击 Install Theme 会弹出一个安装方法的弹层，我们只需要那个git地址，将它拷贝到本地装备使用，例如我自己使用的这个主题：
 
-		git clone git://github.com/jekyllbootstrap/theme-mark-reid.git
+	git clone git://github.com/jekyllbootstrap/theme-mark-reid.git
 
-	3) 、手动将主题文件下的assets、_includes 拷贝到自己博客对应的目录下，在项目中保持跟下载下来的目录一致。
+3) 、手动将主题文件下的assets、_includes 拷贝到自己博客对应的目录下，在项目中保持跟下载下来的目录一致。
 
-	4）、更改_layout目录下所有文件的主题名称、include的目录
+4）、更改_layout目录下所有文件的主题名称、include的目录
 
-		theme :
-		name : mark-reid
+	theme :
+	name : mark-reid
+　　	.......
+　　	"{{% include themes/mark-reid/page.html %}}"
+　	......
 	
-	5) 、 找一些颜色搭配比较好看的博客网站，更改一下自己的css文件。
+5) 、 找一些颜色搭配比较好看的博客网站，更改一下自己的css文件。
 
