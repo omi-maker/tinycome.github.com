@@ -19,11 +19,11 @@ tagline: Supporting tagline
 
 点击[0 to Blog in 3 Minutes](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) 开始博客创建之旅
 
-### 1、Host on GitHub in 3 Minutes
+-- 1、Host on GitHub in 3 Minutes
 
 文章写的很清楚，执行完前面3步自己的博客就算生成好了，而且也有一定的逼格^_^.
 
-### 2、 Run Jekyll Locally
+-- 2、 Run Jekyll Locally
 
 在本地运行jekyll我自己还没有尝试过，感兴趣的可以自己试试,我在Linux上使用，到目前为止就可以了.
 
