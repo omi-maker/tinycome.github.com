@@ -10,7 +10,8 @@ tagline: Supporting tagline
 
 1、gitHub Page的
 
-我觉得这边博文写的很清楚，方法、步骤、优缺点以及实例，所以就借用一下啦^_^[搭建一个免费的，无限流量的Blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+我觉得这边博文写的很清楚，方法、步骤、优缺点以及实例，所以就借用一下啦^_^
+[搭建一个免费的，无限流量的Blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 不过按照文章中的实例生成出来的博客基本是无法使用的，要想更简单快捷的生成有逼格的博客，可以参考第2点。
 
@@ -18,13 +19,11 @@ tagline: Supporting tagline
 
 进入[The Quickest Way to Blog on GitHub Pages](http://jekyllbootstrap.com/)可以整体了解一下gitHub如何使用jekyll的
 
-点击0 to Blog in 3 Minutes
-
-开始博客创建之旅
+点击`0 to Blog in 3 Minutes` 开始博客创建之旅
 
 ## 1、Host on GitHub in 3 Minutes
 
-文章写的很清楚，执行玩前面3步自己的博客就算生成好了，而且也有一定的逼格^_^
+文章写的很清楚，执行完前面3步自己的博客就算生成好了，而且也有一定的逼格^_^
 
 ## 2、 Run Jekyll Locally
 
@@ -32,9 +31,8 @@ tagline: Supporting tagline
 
 ## 3、Create a Post
 
-因为在第2步的时候没有在本地安装Jekyll，后面的几个步骤我就写一下我自己是怎么操作的，如果安装了的就直接按照文档上操作就可以了，上面的英语简单易懂^_^.
-
-直接在_posts目录下创建文件夹如core-samples(名字任意，主要是是方便分类,这个是自带的例子)，然后创建以日期为首的文件2011-12-29-jekyll-introduction.md
+  因为在第2步的时候没有在本地安装Jekyll，后面的几个步骤我就写一下我自己是怎么操作的，如果安装了的就直接按照文档上操作就可以了，上面的英语简单易懂^_^.
+  直接在_posts目录下创建文件夹如core-samples(名字任意，主要是是方便分类,这个是自带的例子)，然后创建以日期为首的文件2011-12-29-jekyll-introduction.md
 
 ## 4、Create a Page
 
@@ -42,11 +40,8 @@ tagline: Supporting tagline
 ## 5、Publish
 
 就是
-
 git commit
-
 git push 
-
 把更新的文件提交到gitHub上即可。
 
 ## 6、Customize
