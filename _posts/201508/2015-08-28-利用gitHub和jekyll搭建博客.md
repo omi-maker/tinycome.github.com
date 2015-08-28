@@ -67,7 +67,7 @@ git push
 		theme :
 		name : mark-reid
 		"......
-		{% include themes/mark-reid/page.html %}
+		\{% include themes/mark-reid/page.html %\}
 		......"
 	
 	5) 、 找一些颜色搭配比较好看的博客网站，更改一下自己的css文件。
