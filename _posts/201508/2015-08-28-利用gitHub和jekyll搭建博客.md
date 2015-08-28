@@ -1,49 +1,92 @@
 ---
 layout: page
-title: Hello World!
+title:gitHub
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-##你好
+### 如何利用gitHub搭建博客?  
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+1、gitHub Page的
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+我觉得这边博文写的很清楚，方法、步骤、优缺点以及实例，所以就借用一下啦^_^[搭建一个免费的，无限流量的Blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
-## Update Author Attributes
+不过按照文章中的实例生成出来的博客基本是无法使用的，要想更简单快捷的生成有逼格的博客，可以参考第2点。
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+2、利用jekyll写博客
 
-	The theme should reference these variables whenever needed.
-    
-## Sample Posts
+进入[The Quickest Way to Blog on GitHub Pages](http://jekyllbootstrap.com/)可以整体了解一下gitHub如何使用jekyll的
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+点击0 to Blog in 3 Minutes
 
-	$ rm -rf _posts/core-samples
+开始博客创建之旅
 
-Here's a sample "posts list".
+## 1、Host on GitHub in 3 Minutes
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+文章写的很清楚，执行玩前面3步自己的博客就算生成好了，而且也有一定的逼格^_^
 
-## To-Do
+## 2、 Run Jekyll Locally
 
-	This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-	We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+在本地运行jekyll我自己还没有尝试过，感兴趣的可以自己试试,我在Linux上使用，到目前为止就可以了。
+
+## 3、Create a Post
+
+因为在第2步的时候没有在本地安装Jekyll，后面的几个步骤我就写一下我自己是怎么操作的，如果安装了的就直接按照文档上操作就可以了，上面的英语简单易懂^_^.
+
+直接在_posts目录下创建文件夹如core-samples(名字任意，主要是是方便分类,这个是自带的例子)，然后创建以日期为首的文件2011-12-29-jekyll-introduction.md
+
+## 4、Create a Page
+
+
+## 5、Publish
+
+就是
+
+git commit
+
+git push 
+
+把更新的文件提交到gitHub上即可。
+
+## 6、Customize
+
+让自己的博客看起来更有逼格更个性化一些，jekyll自己准备了几个主题，可以按照上面的方式自己更换，如果自己会点css那就更好了^_^。
+
+我写一下自己更换的方式，跟文档上面不太一样
+
+	1）、找主题，这一步跟官网一样访问[Theme Explorer](http://themes.jekyllbootstrap.com/)
+
+	2) 、相中合适的主题之后点击 Install Theme 会弹出一个安装方法的弹层，我们只需要那个git地址，将它拷贝到本地装备使用，例如我自己使用的这个主题：
+
+		git clone git://github.com/jekyllbootstrap/theme-mark-reid.git
+
+	3) 、手动将主题文件下的assets、_includes 拷贝到自己博客对应的目录下，在项目中保持跟下载下来的目录一致。
+
+	4）、更改_layout目录下所有文件的主题名称、include的目录
+
+		theme :
+		name : mark-reid
+	
+	5) 、 找一些颜色搭配比较好看的博客网站，更改一下自己的css文件。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
