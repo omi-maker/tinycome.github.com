@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 如何利用gitHub搭建博客?
+title: 如何利用gitHub搭建博客
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -63,9 +63,13 @@ git push
   2.6.4)、更改_layout目录下所有文件的主题名称、include的目录中与主题相关的内容
 
 	theme :
-	name : mark-reid
-　　	......
-	% include themes/mark-reid/page.html %
-	......
 	
+	name : mark-reid
+	
+	......
+
+	% include themes/mark-reid/page.html %
+	
+	......
+
   2.6.5) 、 找一些颜色搭配比较好看的博客/网站，更改一下自己的css文件。
