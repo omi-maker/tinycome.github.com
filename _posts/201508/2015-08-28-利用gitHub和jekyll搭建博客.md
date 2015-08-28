@@ -54,7 +54,7 @@ git push
 
 我写一下自己更换的方式，跟文档上面不太一样:
 
-1）、找主题，这一步跟官网一样访问`[Theme Explorer](http://themes.jekyllbootstrap.com/)`
+1）、找主题，这一步跟官网一样访问[Theme Explorer](http://themes.jekyllbootstrap.com/)
 
 2) 、相中合适的主题之后点击 Install Theme 会弹出一个安装方法的弹层，我们只需要那个git地址，将它拷贝到本地装备使用，例如我自己使用的这个主题：
 
@@ -67,7 +67,7 @@ git push
 	theme :
 	name : mark-reid
 　　	.......
-　　	"{{% include themes/mark-reid/page.html %}}"
+　　	`{{% include themes/mark-reid/page.html %}}`
 　	......
 	
 5) 、 找一些颜色搭配比较好看的博客网站，更改一下自己的css文件。
