@@ -6,14 +6,14 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 
-= 1、gitHub Page的的使用
+=1、gitHub Page的的使用
 
 我觉得这边博文写的很清楚，方法、步骤、优缺点以及实例，所以就借用一下啦^_^
 [搭建一个免费的，无限流量的Blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 不过按照文章中的实例生成出来的博客基本是无法使用的，要想更简单快捷的生成有逼格的博客，可以参考第2点.
  
-= 2、利用jekyll写博客
+=2、利用jekyll写博客
 
 进入[The Quickest Way to Blog on GitHub Pages](http://jekyllbootstrap.com/)可以整体了解一下gitHub如何使用jekyll的
 
