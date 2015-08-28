@@ -22,9 +22,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: Palatino, georgia, "times new roman", serif;
-	background-color: whitesmoke;
+	background-color: #A8CBD4;
 	background-position: center -18em;
-	background-repeat: repeat-x; 
+	background-repeat: repeat; 
+	background-image: url(../bg.png)
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
@@ -71,7 +72,7 @@ sup { line-height: 1ex; }
 }
 
 #page, #disqus_thread {
-	background: white;
+	background: #f5f5d5;
 /*	background-image: url(grid.png); */
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
