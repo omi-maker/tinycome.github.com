@@ -68,7 +68,7 @@ git push
 	
 	......
 
-	% include themes/mark-reid/page.html %
+	% include themes/mark-reid/page.html % 
 	
 	......
 
