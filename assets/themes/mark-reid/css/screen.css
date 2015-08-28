@@ -361,6 +361,7 @@ code {
 	font-size: 1em;
 	background-color: #f7f7ff;
 	line-height: 1.4em;
+	word-break: break-word;
 }
 pre > code {
 	background-color: transparent;
