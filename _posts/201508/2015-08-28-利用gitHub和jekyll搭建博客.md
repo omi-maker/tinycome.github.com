@@ -11,4 +11,4 @@ tags : [gitHub,jekyll]
 
 1、了解gitHub Page的使用方法
 
-2、利用jekyll写博客
+  2、利用jekyll写博客
