@@ -6,6 +6,8 @@ tagline: "搭建博客"
 tags : [gitHub,jekyll]
 ---
 
+{% include JB/setup %}
+
 ### 如何利用gitHub搭建博客?  
 
 1、gitHub Page的
