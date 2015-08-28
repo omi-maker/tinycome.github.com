@@ -19,6 +19,7 @@ tagline: Supporting tagline
 
 点击[0 to Blog in 3 Minutes](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) 开始博客创建之旅
 
+<fonn size="18">
  2.1、Host on GitHub in 3 Minutes
 
 文章写的很清楚，执行完前面3步自己的博客就算生成好了，而且也有一定的逼格^_^.
@@ -51,7 +52,7 @@ git push
 让自己的博客看起来更有逼格更个性化一些，jekyll自己准备了几个主题，可以按照上面的方式自己更换，如果自己会点css那就更好了^_^.
 
 我写一下自己更换的方式，跟文档上面不太一样:
-
+<font size="12">
   2.6.1)、找主题，这一步跟官网一样访问[Theme Explorer](http://themes.jekyllbootstrap.com/)
 
   2.6.2) 、相中合适的主题之后点击 Install Theme 会弹出一个安装方法的弹层，我们只需要那个git地址，将它拷贝到本地时使用，例如我自己使用的这个主题：
@@ -64,10 +65,10 @@ git push
 
 	theme :
 	name : mark-reid
-	
 　　	......
 	% include themes/mark-reid/page.html %
 	......
 	
   2.6.5) 、 找一些颜色搭配比较好看的博客/网站，更改一下自己的css文件。
-
+</font>
+</font>
