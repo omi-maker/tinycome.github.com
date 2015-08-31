@@ -80,8 +80,8 @@ git push
 
  3.2)、前往你的DNS服务商新建一个CNAME解析至你的github page个人主页地址（如：tinyCome.github.io）。DNSPod需要多加一个点，即tinyCome.github.io.
 
- 	![DNSPod Add](/assets/image/DNSPod_add.png)
+ ![DNSPod Add](/assets/image/DNSPod_add.png)
 
  3.3)、到自己购买域名的地方修改DNS服务。(自己是在阿里云上购买的，修改如下，改为DNSPod上NS提供的记录值)
 
-	![DNS Update](/assets/image/DNS_update.png)
+![DNS Update](/assets/image/DNS_update.png)
