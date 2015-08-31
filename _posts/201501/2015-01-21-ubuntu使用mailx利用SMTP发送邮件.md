@@ -2,12 +2,12 @@
 layout : post
 title : ubuntu使用mailx利用SMTP发送邮件
 tagline : Supporting tagline
-tags : [Linux,ubuntu]
+tags : [Linux,ubuntu,mailx]
 category : Linux
 ---
 {% include JB/setup %}
 
-转载：http://www.blogjava.net/jasmine214--love/archive/2010/10/09/334102.html
+转载：[http://www.blogjava.net/jasmine214--love/archive/2010/10/09/334102.html](http://www.blogjava.net/jasmine214--love/archive/2010/10/09/334102.html)
 
 1、下载安装mailx
 
