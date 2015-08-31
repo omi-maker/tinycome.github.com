@@ -39,6 +39,6 @@ smtp-auth是邮件认证的方式
 
 可以发送一封邮件测试一下：
 	
-	mail -s "test" user@sohu.com 
+	mail -s "test" user@sohu.com < content.txt 
 
-<content.txt 其中-s后面的是邮件标题，user@sohu.com是收件人地址，content.txt里面是邮件正文>
+其中-s后面的是邮件标题，user@sohu.com是收件人地址，content.txt里面是邮件正文
