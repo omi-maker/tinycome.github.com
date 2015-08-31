@@ -84,4 +84,6 @@ git push
 
  3.3)、到自己购买域名的地方修改DNS服务。(自己是在阿里云上购买的，修改如下，改为DNSPod上NS提供的记录值)
 
-![DNS Update](/assets/image/DNS_update.png)
+ ![DNS Update](/assets/image/DNS_update.png)
+
+ 3.4)、稍等一会儿等待信息同步即可。
