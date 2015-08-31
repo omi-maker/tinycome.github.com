@@ -5,8 +5,9 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-{{ BASE_PATH }}
-{{ HOME_PATH }}
+base_path:{{ BASE_PATH }}
+
+home_path:{{ HOME_PATH }}
 
 
 ##你好
