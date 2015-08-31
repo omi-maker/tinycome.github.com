@@ -5,6 +5,9 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+{%  BASE_PATH %}
+
+
 ##你好
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
