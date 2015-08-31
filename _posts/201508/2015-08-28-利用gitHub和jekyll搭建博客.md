@@ -3,6 +3,7 @@ layout: page
 title: 如何利用gitHub搭建博客
 tagline: Supporting tagline
 tags : [gitHub,jekyll]
+category : gitHub
 ---
 {% include JB/setup %}
 
