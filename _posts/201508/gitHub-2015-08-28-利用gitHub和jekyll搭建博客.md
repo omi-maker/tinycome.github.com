@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 如何利用gitHub搭建博客
 tagline: Supporting tagline
 tags:[gitHub,jekyll]
