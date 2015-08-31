@@ -554,4 +554,4 @@ img.maruku-png { }
 	color:#FFF;
 }
 
-#placement-top { display:none; }
+#placement-top { display:none !important; }
