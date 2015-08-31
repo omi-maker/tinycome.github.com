@@ -1,14 +1,9 @@
 ---
-layout: page
+layout: post
 title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-
-base_path:{{ BASE_PATH }}
-
-home_path:{{ HOME_PATH }}
-
 
 ##你好
 
