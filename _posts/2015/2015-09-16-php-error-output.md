@@ -13,16 +13,17 @@ category : php
 则会将错误内容返回给FastCGI接口，然后nginx在收到FastCGI的错误返回后记录到了nginx的errorlog中
 
 所以解决nginx下php-fpm不记录php错误日志的办法:
-
 1.修改php-fpm.conf中配置,没有则增加
-catch_workers_output = yes 
-;error_log = log/error_log
+
+	catch_workers_output = yes 
+	;error_log = log/error_log
 
 2.修改php.ini中配置，没有则增加
-display_errors = off //不显示错误信息(不输出到页面或屏幕上)
-log_errors = On
-;error_log = "/usr/local/lnmp/php/var/log/error_log"
-error_reporting=E_ALL&~E_NOTICE
+
+	display_errors = off //不显示错误信息(不输出到页面或屏幕上)
+	log_errors = On
+	;error_log = "/usr/local/lnmp/php/var/log/error_log"
+	error_reporting=E_ALL&~E_NOTICE
 
 注：
 php-fpm.conf中的php_admin_value[error_log]，php_admin_flag[log_errors]参数会覆盖到php.ini的error_log，log_errors中
